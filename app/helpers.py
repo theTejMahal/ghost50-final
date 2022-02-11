@@ -21,10 +21,10 @@ def login_required(f):
 # initialize word list trie
 trie = Trie()
 
-current_path = os.getcwd()
-if "/app" in current_path:
-    current_path = current_path.removesuffix("/app")
-with open(current_path + "/app/words.txt") as word_file:
+# current_path = os.getcwd()
+# if "/app" in current_path:
+#     current_path = current_path.removesuffix("/app")
+with open("words.txt") as word_file:
     for word in word_file:
         word = word.strip('\n')
         trie[word] = True
