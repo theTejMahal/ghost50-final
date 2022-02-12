@@ -1,5 +1,3 @@
-https://www.youtube.com/watch?v=YZZlGh0scYY&
-
 || OVERVIEW ||
 
 Welcome to Ghost50, a modern take on the word game "ghost."
@@ -27,10 +25,13 @@ Here, user 2 loses by spelling the valid word "ghost". Sorry, user 2 :(
 
 
 HOW TO RUN // HOUSEKEEPING:
+CS50:
 The project is housed in the directory finalproject (creative, we know), and can be run through the Cloud 9 IDE (including the CS50 IDE). 
 To run the website, in one terminal window, cd to finalproject, and start mySQL by typing "mysql50 start". 
 Then, in another terminal window, cd to finalproject, and start Flask by typing "flask run". 
 Now, you can access the website via the IDE's Web Server. 
+Now:
+Clone source files, set up mySQL and update keys, then run either locally or deploy to a hosting service.
 
 || GET ORIENTED ||
 
@@ -47,7 +48,7 @@ If you want to change accounts, simply click log out in the navigation bar and l
 INDEX:
 This is the ghost50 homepage (index.html). 
 Along with the familiar navigation bar across the top, 
-our index page displays the summary of ghost+ rules and the current high scores table, with highest-scoring users at the top.
+our index page displays the summary of ghost50 rules and the current high scores table, with highest-scoring users at the top.
 Using the navigation bar or the links at the top of the index page, 
 users can either create a round of ghost50, join a round of ghost50, or play against our AI.
 
@@ -70,7 +71,6 @@ This will dynamically display all games that are still accepting players.
 If you see a game you'd like to join, just click join game next to that game, and you'll be taken to the respective waiting room for that game.
 Again, once all the players you'd like are displayed in the waiting room, click start game, and your status will display as ready.
 Once all members of the waiting room click start game (and are "ready"), the game will begin. 
-
 
 GAME PLAY:
 Across the top of the gameplay page, you'll see all the users playing and each user's overall score, 
