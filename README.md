@@ -1,4 +1,4 @@
-# ghost50-final
+# Ghost50
 2016 final project by Cameron Cohen, Sarah Ryan, Tejal Patwardhan
 
 Play here: https://ghost50.herokuapp.com/
